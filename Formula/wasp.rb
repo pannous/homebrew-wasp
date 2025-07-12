@@ -1,15 +1,13 @@
 class Wasp < Formula
   desc "Wasp binary"
   homepage "https://github.com/pannous/wasp"
-
-  homepage "https://github.com/pannous/wasp"
-  url "https://github.com/pannous/wasp.git", :using => :git, :tag => "v1.0.0"
+  url "https://github.com/pannous/wasp.git", :using => :git, :tag => "release-2025-07-10", :branch => "main"
   version "1.0.0"
 
   def install
     bin.install "bin/mac/wasp"
   end
-  
+
   # url "file:///opt/homebrew/Library/Taps/pannous/homebrew-wasp/wasp"
   # url "https://github.com/pannous/wasp/raw/main/bin/mac/wasp" # nightly
   # url "https://github.com/pannous/wasp/releases/download/latest/wasp"
